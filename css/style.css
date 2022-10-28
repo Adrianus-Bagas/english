@@ -1,0 +1,106 @@
+.container{
+    width: 75%;
+}
+.slider h3, .slider h4, .clients h3{
+    text-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
+.slider .last{
+    margin-top: 10px;
+}
+.slider .first{
+    margin-top: 10px;
+}
+.about h6{
+    text-align: justify;
+}
+.parallax-container{
+    height: 20%;
+}
+.parallax img{
+    filter: grayscale(1);
+    opacity: .5 !important;
+}
+.clients img{
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,.8));
+}
+section, footer{
+    padding: 20px 0;
+}
+.code, .poster, .video{
+    color: black;
+}
+.portofolio{
+    padding-bottom: 10px;
+    width: 449px;
+    height: 50%;
+    float: left;
+}
+.project {
+    position: relative;
+    margin: 0 auto; /* Center it */
+}
+.penjelasan p{
+    margin: 0;
+    text-align: justify;
+}
+.judul h5{
+    padding: 10px;
+}
+.ganjil img{
+    float: left;
+}
+.hp{
+    margin-left: 30px;
+}
+/* .fa-twitter {
+    background: black;
+    color: white;
+} */
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+.fa-solid {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    background: black;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.awal:hover {
+    opacity: 0.7;
+}
+.skillset .skill{
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+img{
+    filter: grayscale(100%);
+}
+.tableau .skill{
+    width: 105px;
+}
+.expand{
+    width: 100px;
+}
+.proyek{
+    padding: 20px;
+}
+/* .email:hover {
+    opacity: 0.7;
+}
+.email{
+    color: white;
+} */

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Website Portofolio</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <body id="home" class="scrollspy">
+    <!-- awal navbar -->
+    <div class="navbar-fixed">
+        <nav class="black darken-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo">Website</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="awal"><a href="#about">Profil</a></li>
+                        <li class="awal"><a href="#services">Skillset</a></li>
+                        <li class="awal"><a href="#nlp">NLP</a></li>
+                        <li class="awal"><a href="#cv">Computer Vision</a></li>
+                        <li class="awal"><a href="#eda">Data Visualization & EDA</a></li>
+                        <li class="awal"><a href="#sql">SQL</a></li>
+                        <li class="awal"><a href="#data mining">Data Mining</a></li>
+                        <li class="awal"><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- akhir navbar -->
+    <!-- awal sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#about">Profil</a></li>
+        <!-- <li><a href="#clients">Clients (mau dihapus)</a></li> -->
+        <li><a href="#services">Skillset</a></li>
+        <li><a href="#nlp">NLP</a></li>
+        <li><a href="#cv">Computer Vision</a></li>
+        <li><a href="#eda">Data Visualization & EDA</a></li>
+        <li><a href="#sql">SQL</a></li>
+        <li><a href="#data mining">Data Mining</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <!-- <li><a href="#contact">Contact Us</a></li> -->
+      </ul>
+    <!-- akhir sidenav -->
+    <!-- awal slider -->
+    <!-- akhir slider -->
+    <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/slider/football.jpg"> <!-- random image -->
+            <div class="caption right-align first">
+              <h4>Halo!</h4>
+              <h4>Saya Adrianus Bagas Tantyo Dananjaya</h4>
+              <!-- <h5 class="light grey-text text-lighten-3"></h5> -->
+            </div>
+          </li>
+          <li>
+            <img src="img/slider/website.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>Ini adalah Website Portofolio Saya</h3>
+              <!-- <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
+            </div>
+          </li>
+          <li>
+            <img src="img/slider/laptop.jpg"> <!-- random image -->
+            <div class="caption center-align last">
+              <h4>Jelajahi proyek yang pernah saya buat dalam bentuk video, infografis, dan code</h4>
+              <!-- <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
+            </div>
+          </li>
+        </ul>
+    </div>
+    <!-- awal about us -->
+    <section class="about scrollspy" id="about">
+        <div class="container">
+            <div class="row">
+                <h3 class="center light black-text text-darken-3"><b>Profil</b></h3>
+                <div class="col m6 light">
+                    <h6>Saya adalah seorang Sarjana Matematika yang menekuni bidang <i>Computer Science</i> selama perkuliahan. Kegiatan sehari-hari yang saya lakukan adalah memperdalam ilmu di bidang <i>Computer Science</i> dengan membaca artikel dalam bentuk blog dan karya ilmiah. Melalui hal tersebut, saya menjadi lebih penasaran mengenai bidang <i>Computer Science</i> yang lebih dalam.</h6>
+                </div>
+                <div class="col m6 light">
+                    <!-- <p>WEB DEVELOPMENT</p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 80%"></div>
+                    </div>                  
+                    <p>MOBILE APP DEVELOPMENT</p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 70%"></div>
+                    </div>                  
+                    <p>GAME DEVELOPMENT</p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 90%"></div>
+                    </div>                   -->
+                    <h6>Selain membaca artikel dan karya ilmiah, saya mencoba mengimplementasikan apa yang saya baca melalui praktik menggunakan data yang tersedia. Saya juga mencoba mengikuti kursus daring seperti Datacamp dan FreeCodeCamp untuk menambah jam terbang dalam bidang <i>Computer Science</i>. Dengan mengimplementasikan ilmu melalui praktik dan kursus daring, saya berharap kemampuan saya terus meningkat.</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir about us -->
+    <!-- awal clients -->
+    <!-- <div class="parallax-container scrollspy" id="clients" >
+        <div class="parallax"><img src="img/slider/4.png"></div>
+        <div class="container clients">
+            <h3 class="center light white-text" >Our Clients</h3>
+            <div class="row">
+                <div class="col m4 s12 center">
+                    <img src="img/clients/gojek.png">
+                </div>
+                <div class="col m4 s12 center">
+                    <img src="img/clients/tokopedia.png">
+                </div>
+                <div class="col m4 s12 center">
+                    <img src="img/clients/traveloka.png">
+                </div>
+            </div>
+        </div>
+      </div> -->
+      <!-- akhir clients -->
+      <!-- awal services -->
+      <section id="services" class="services black lighten-3 scrollspy">
+          <div class="container">
+              <div class="row">
+                  <h3 class="light center white-text text-darken-3"><b><i>Skillset</i></b></h3>
+                  <div class="col m6 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/natural-language-processing.png" class="skill">
+                            </div>
+                            <h5><i>Natural Language Processing</i></h5>
+                        </div>
+                  </div>
+                  <div class="col m6 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/data.png" class="skill">
+                            </div>
+                            <h5><i>Exploratory Data Analysis</i></h5>
+                        </div>
+                  </div>
+                  <div class="col m4 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/vision.png" class="skill">
+                            </div>
+                            <h5><i>Computer Vision</i></h5>
+                        </div>
+                  </div>
+                  <div class="col m4 s12 center">
+                        <div class="card-panel center">
+                            <div class="tableau">
+                                <img src="img/portfolio/Tableau-Emblem.png" class="skill">
+                            </div>
+                            <h5>Tableau</h5>
+                        </div>
+                  </div>
+                  <div class="col m4 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/excel.png" class="skill">
+                            </div>
+                            <h5>Microsoft Excel</h5>
+                        </div>
+                  </div>
+                  <div class="col m4 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/sql-server.png" class="skill">
+                            </div>
+                            <h5>SQL</h5>
+                        </div>
+                  </div>
+                  <div class="col m4 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/deep-learning.png" class="skill">
+                            </div>
+                            <h5><i>Machine Learning</i></h5>
+                        </div>
+                  </div>
+                  <div class="col m4 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/machine-learning.png" class="skill">
+                            </div>
+                            <h5><i>Deep Learning</i></h5>
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- akhir services -->
+      <!-- awal portfolio -->
+      <section class="portfolio scrollspy" id="portfolio">
+          <div class="container">
+              <h1 class="light center black-text text-darken-3"><b>PROYEK</b></h1>
+              <h3 class="light center grey black-text text-darken-3 scrollspy proyek" id="nlp"><b><i>Natural Language Processing</i></b></h3>
+              <ul class="collapsible popout">
+                <li class="active">
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Analisis Sentimen pada Komentar Terhadap Kebijakan Perjalanan Domestik yang Dikelompokkan Menggunakan Metode Self-Organizing Maps</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Analisis Sentimen pada Komentar Terhadap Kebijakan Perjalanan Domestik yang Dikelompokkan Menggunakan Metode <i>Self-Organizing Maps</i></h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/transportation.jpg" class="responsive-img portofolio ganjil">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Selama masa pandemi COVID-19, aktivitas transportasi diatur dalam kebijakan perjalanan domestik yang mengharuskan penumpang untuk memenuhi beberapa persyaratan bila ingin bepergian. Kebijakan yang dibuat selalu berubah-ubah sehingga membuat masyarakat mengeluh. Proyek ini merupakan tugas akhir saya saat menempuh pendidikan Sarjana Matematika dimana saya melakukan <i>text mining</i> menggunakan <i>Self-Organizing Maps</i> untuk mengelompokkan opini masyarakat dan <i>Indonesian Sentiment Lexicon</i> untuk mengetahui sentimen setiap kelompok opini. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1Daj__L49lAfEY_aWyzP3p0Qv7zYC7ZNu/view?usp=sharing" class="poster center" target="_blank">draft tugas akhir</a></b>, <b><a href="https://drive.google.com/file/d/1F6ZOyrUQNC8wqX6izTuc01Gtw_wAGSIg/view?usp=sharing" class="poster center" target="_blank">infografis</a></b>, dan <b><a href="https://drive.google.com/file/d/1hfxM_djbFwH2QyJ1Wh66l9RFKXRtY9LX/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Tugas-Akhir/blob/main/Analisis_Sentimen_pada_Komentar_terhadap_Kebijakan_Perjalanan_Domestik_yang_Dikelompokkan_Menggunakan_Metode_Self_Organizing_Maps.ipynb" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Chatbot Sederhana</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5><i>Chatbot</i> Sederhana</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/chatbot.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p><i>Chatbot</i> adalah sebuah program komputer berbasis AI (Artificial Intelligence) yang dapat mensimulasikan percakapan layaknya manusia. Teknologi ini dikenal sebagai asisten digital yang dapat memahami dan memproses permintaan pengguna serta dapat memberikan jawaban yang relevan dengan cepat. Proyek ini merupakan proyek pribadi saya yang terinspirasi dari <b><a href="https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281" class="poster center" target="_blank">blog ini</a></b> yang dimodifikasi pada model <i>deep learning</i> yang digunakan dan penggunaan <i>chatbot</i>. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1ffySL-pqkkbO8i4ICkZoXdHxRVNM6sT1/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/17dkE8nbcL1e4HY8aCpFF9JXEtWDnajI-/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Chatbot-Sederhana/blob/main/Simple_Chatbot.ipynb" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Perangkuman Teks</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Perangkuman Teks</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/rangkum.svg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Salah satu aplikasi dari bidang NLP adalah perangkuman teks. Perangkuman teks berguna untuk mempersingkat teks yang panjang namun tetap memiliki inti yang sama. Terdapat 2 jenis perangkuman teks, yaitu ekstraktif (menyusun kata-kata penting dari teks) dan abstraktif (parafrase teks). Proyek ini merupakan proyek pribadi yang mengimplementasikan metode BERT, GPT, dan TFIDF untuk merangkum teks secara ekstraktif dimana mengambil kata penting yang disusun menjadi satu kalimat. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1Aj_MVWfrjeBJdwHRf4srxbsypFHDwLHY/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1KZ7Y_HXP5fv-9xlpFdf1n4QC1PNCve4E/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/PerangkumanTeks/blob/main/Text_Summarization.ipynb" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Hate Speech Detection</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5><i>Hate Speech Detection</i></h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/hate.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Manusia adalah makhluk sosial. Pernyataan tersebut membuat kita memerlukan bersosialisasi dengan orang lain. Salah satu cara bersosialisasi adalah komunikasi. Komunikasi bertujuan untuk menyampaikan pesan atau memberikan informasi. Dalam praktiknya, komunikasi masih belum berjalan dengan baik. Salah satu penyebabnya adalah penggunaan bahasa yang kasar sehingga dapat menyebabkan miskomunikasi. Proyek ini membahas mengenai deteksi ujaran kebencian menggunakan 4 metode klasifikasi dan membandingkan 4 metode tersebut. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1malvj5TLPGK1SYDhUOx-8fgGVESB04F2/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1W2FZq2DVBwjbeUy4n5cpiguhZtdr1yl7/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Hate-Speech-Detection/blob/main/Hate_Speech_Detection_(Model).ipynb" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Deteksi Emosi Berdasarkan Suara</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Deteksi Emosi Berdasarkan Suara</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/emotion.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Emosi adalah reaksi terhadap suatu kejadian. Emosi yang ditunjukkan bisa berbeda-beda. Bila kita meraih nilai bagus, emosi kita menjadi senang. Bila kita mendapat perlakuan tidak baik dari orang lain, emosi kita bisa menjadi sedih maupun marah. Bila kita merasa terancam, emosi kita menjadi takut. Proyek ini membahas mengenai deteksi emosi yang disebutkan sebelumnya yaitu senang, sedih, marah, dan takut menggunakan metode <i>Convolutional Neural Network</i> (CNN) dan <i>Recurrent Convolutional Neural Network</i> (RCNN). Metode yang lebih baik akan diterapkan pada <i>User Interface</i>. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1vYndvfeBA5RF3GhCbLKdWRuVR3m1Tafa/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1bi6mSCx3p7Ruvjff1HGDnCW6NXuxYhjR/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Emotion-Detection/blob/main/Emotion_Detection_(Model).ipynb" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Klasifikasi Jenis Keluhan Pelanggan</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Klasifikasi Jenis Keluhan Pelanggan</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/cs.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Setiap perusahaan memiliki <i>customer service</i> yang bertugas membantu pelanggan untuk mengatasi masalah pada penggunaan produk. Keluhan yang disampaikan bermacam-macam, tergantung produk yang sedang digunakan pelanggan. Proyek ini membahas mengenai klasifikasi jenis keluhan pelanggan yang terdiri dari 5 produk, yaitu penagihan hutang, pelaporan kredit, penggadaian dan pinjaman, kartu kredit, dan perbankan ritel menggunakan metode <i>Bidirectional Long Short Term Memory</i>. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1Ny0ZV1Rp5A5Phk5CpGPy2GemNPTsWj2t/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1GG_PkK-5udi6OtYucmGjatbHNB3QBSIo/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Customer-Complaint-Classification" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+              </ul>
+              <h3 class="light center grey black-text text-darken-3 scrollspy proyek" id="cv"><b><i>Computer Vision</i></b></h3>
+              <ul class="collapsible popout">
+                <li class="active">
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Deteksi COVID-19 Berdasarkan Citra CT-Scan</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Deteksi COVID-19 Berdasarkan Citra CT-Scan</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/covid.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Kecerdasan buatan dapat diimplementasikan pada bidang medis, salah satunya adalah dalam mendeteksi penyakit berdasarkan citra CT-Scan atau MRI. Penerapkan kecerdasan buatan dalam deteksi penyakit diharapkan dapat membantu dokter untuk menganalisis penyakit pada pasien. Salah satu penyakit yang sedang mewabah pada beberapa tahun terakhir adalah COVID-19. COVID-19 merupakan penyakit yang menyerang alat pernapasan. Proyek ini akan membahas deteksi penyakit COVID-19 berdasarkan citra CT-Scan pada paru-paru menggunakan metode DenseNet121. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/17323ppCpQsL8LoPIwccmBllloMQN1R2V/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1ifFuCB8nnp6_GxPXt2OEw2FRaUdlPY1M/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/COVID-19-Detection" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Deteksi Penggunaan Masker</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Deteksi Penggunaan Masker</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/masker.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>COVID-19 merupakan penyakit yang menyerang alat pernapasan dan mudah menular. Maka dari itu, seluruh dunia mewajibkan masyarakatnya menggunakan masker jika bepergian selama masa pandemi COVID-19. Beberapa tempat umum seperti restoran dan rumah sakit memiliki aturan dimana pengunjung wajib bermasker, jika tidak menggunakan masker maka pengunjung tidak diperbolehkan masuk. Namun terkadang terdapat pengunjung tidak bermasker yang luput dari pengawasan sehingga dapat menyebabkan peluang menularnya penyakit semakin tinggi. Pengawasan pengunjung yang dapat terbantu dengan sistem yang dapat mendeteksi penggunaan masker. Proyek ini akan membahas deteksi penggunaan masker menggunakan metode CNN. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1VdBezRoK7w85TW_cqCXLnpc1jav4Hf8c/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1cFRPlw-YlX5nOYDWGovqWJM4n-kKGV7x/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Face-Mask-Detection" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Identifikasi Makna Gestur Tangan</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Identifikasi Makna Gestur Tangan</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/gestur.webp" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Komunikasi merupakan kegiatan yang dilakukan manusia sehari-hari untuk saling berbagi informasi. Mulut menjadi bagian tubuh manusia yang digunakan sebagai alat komunikasi secara langsung, namun orang-orang tertentu khususnya yang berkebutuhan khusus menggunakan bagian tubuh lainnya untuk berkomunikasi, salah satunya adalah tangan. Proyek ini akan membahas identifikasi 5 makna gestur tangan (baik, buruk, telepon, diam, dan damai) menggunakan metode MobileNet. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1weBKCZkrbfe0mSCzjoQV3QU8Im0xbfOO/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/15xnKHQ5BuQMnQXgv8kAPOqV35UWc-k0Q/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Hand-Gesture-Detection" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Deteksi Tumor Otak</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Deteksi Tumor Otak</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/brain.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Tumor otak adalah penyakit yang timbul akibat tumbuhnya jaringan abnormal di otak. Tergantung pada jenisnya, tumor otak bisa bersifat jinak atau ganas. Munculnya tumor di otak bisa berasal dari jaringan otak itu sendiri (atau disebut tumor otak primer), bisa juga berasal dari kanker pada organ lain yang menyebar ke otak (tumor otak sekunder). Proyek ini akan membahas deteksi tumor otak berdasarkan citra MRI menggunakan metode VGG16, ResNet50V2, dan Xception untuk ekstraksi fitur serta Random Forest untuk klasifikasi. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1KWtWwj82syBfJbyTLmBmDtwoxRrCSGTO/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1QcRUawcDfDKIzKnYgdQfpsQE0W9B4Mi-/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Brain-Tumor-Detection" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Klasifikasi Jenis Sampah</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Klasifikasi Jenis Sampah</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/sampah.webp" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Pada umumnya, terdapat 2 jenis sampah yaitu organik dan anorganik. Sampah organik biasanya berasal dari bahan yang mudah membusuk seperti makanan. Sampah organik dapat dimanfaatkan menjadi pupuk sederhana. Sampah anorganik biasanya berasal dari bahan yang sulit teruraikan seperti plastik dan kaca. Sampah anorganik dapat diolah kembali atau daur ulang menjadi barang yang bermanfaat dan bisa dijual. Pemilahan sampah organik dan anorganik sangatlah penting agar sampah tidak menumpuk dan menjaga kebersihan lingkungan sekitar. Proyek ini membahas mengenai pemilahan sampah organik dan anorganik menggunakan metode VGG. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1f4SuB1tQjVWojkqjO0pWW5xu2eu0fCSx/view?usp=sharing" class="poster center" target="_blank">infografis</a></b> dan <b><a href="https://drive.google.com/file/d/1pXAPx9EC-J4Z5QKlHV80T6ppa1dpmhcN/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Klasifikasi-Jenis-Sampah" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+              <h3 class="light center grey black-text text-darken-3 scrollspy proyek" id="eda"><b><i>Data Visualization & EDA</i></b></h3>
+              <ul class="collapsible popout">
+                <li class="active">
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Dashboard Statistik Sepakbola</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5><i>Dashboard Statistik Sepakbola</i></h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/dashboard.png" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Premier League adalah salah satu liga sepakbola terbesar dan terkompetitif di dunia. Hal tersebut dikarenakan hasil pertandingan dan juara dalam liga tersebut sulit ditebak. Premier League memiliki enam tim besar yang disebut "The Big Six" terdiri dari Arsenal, Chelsea, Liverpool, Manchester City, Manchester United, dan Tottenham Hotspurs. Manchester United merupakan tim tersukses di liga inggris dengan 20 gelar liga. Proyek ini akan membahas statistik "The Big Six" selama 12 musim. Bukan hanya tentang menang dan kalah, sepakbola memiliki statistik yang lebih dari itu, mulai dari aspek menyerang, bertahan, serta kedisiplinan dalam bermain. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1LiVRoih3tkak4qgk5IOLjW57Ww0Iaib3/view?usp=sharing" class="video center" target="_blank">video</a></b> dan <i>file</i> dapat diakses <b><a href="img/portfolio/Portofolio - Adrianus Bagas Tantyo Dananjaya.xlsx" download="Dashboard Data Visualization" class="code"> disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Dashboard Penjualan Supermarket</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Dashboard Penjualan Supermarket</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/supermarket.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Supermarket merupakan tempat belanja yang selalu ramai karena barang yang dijual sangat lengkap. Data hasil penjualan sebuah supermarket dapat digunakan untuk analisis lebih lanjut mengenai produk yang dijual. Proyek ini membahas mengenai visualisasi data penjualan sebuah supermarket menggunakan Tableau. Data yang ditinjau adalah kuantitas penjualan, penilaian terhadap produk, dan laba kotor produk dari setiap cabang. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1LhjtbjQuEtAtdT9mH_DUMHS5cvngix8p/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>dashboard</i> dapat diakses <b><a href="https://public.tableau.com/app/profile/adrianus.bagas1811/viz/DashboardSupermarketSales_16656374232920/Dashboard1" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+              </ul>
+              <h3 class="light center grey black-text text-darken-3 scrollspy proyek" id="sql"><b>SQL</b></h3>
+              <ul class="collapsible popout">
+                <li class="active">
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Sistem Basis Data Manajemen Bengkel</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Sistem Basis Data Manajemen Bengkel</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/bengkel.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Setiap perusahaan pasti memiliki sebuah sistem untuk mengatur data perusahaan. Tujuan dibuatnya manajemen data perusahaan agar hal yang terjadi pada perusahaan tercatat dengan rapih dan mudah diakses. Sistem basis data perusahaan dibuat dengan tampilan yang mudah digunakan dan fitur-fitur yang cukup lengkap untuk mengakses data pada perusahaan tersebut. Proyek ini merupakan tugas besar dari mata kuliah sistem basis data yang membahas mengenai manajemen data pada perusahaan bengkel untuk mengatur kendaraan, staff, dan transaksi. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1x5Ab1FT0n4TBsjieoDkVpeD4iL8el31o/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Sistem-Basis-Data-Manajemen-Bengkel" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+              </ul>
+              <h3 class="light center grey black-text text-darken-3 scrollspy proyek" id="data mining"><b><i>Data Mining</i></b></h3>
+              <ul class="collapsible popout">
+                <li class="active">
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Sistem Rekomendasi Film</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Sistem Rekomendasi Film</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/film.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Menonton film adalah salah satu kegiatan yang dilakukan saat <i>refreshing</i>. Selama masa pandemi, masyarakat menonton film melalui layanan streaming film seperti Netflix. Biasanya layanan streaming film akan menampilkan rekomendasi film pada beranda berdasarkan film yang biasa ditonton. Proyek ini membahas mengenai sistem rekomendasi film Indonesia berdasarkan film yang disukai oleh pengguna. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1-SfExJh7FuVk5VZXz3iA7uBI6qIYfPe2/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Content-Based-Filtering-Recommender-System" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+                <li>
+                  <div class="black white-text collapsible-header"><i class="material-icons">expand_more</i>Sistem Rekomendasi Tempat Wisata</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="judul center">
+                        <h5>Sistem Rekomendasi Tempat Wisata</h5>
+                      </div>
+                      <div class="row">
+                        <div class="project col m6 s12">
+                            <img src="img/portfolio/liburan.jpg" class="responsive-img portofolio">
+                        </div>
+                        <div class="penjelasan col m6 s12">
+                            <p>Selain menonton film, bertamasya adalah salah satu kegiatan yang dilakukan saat <i>refreshing</i>. Setelah sekian lama, akhirnya tempat wisata mulai dibuka semenjak pandemi COVID-19. Tentunya masyarakat memerlukan rekomendasi tempat wisata yang dapat dikunjungi. Proyek ini membahas mengenai sistem rekomendasi tempat wisata di lima kota Pulau Jawa yaitu Jakarta, Bandung, Semarang, Jogjakarta, dan Surabaya. Pendekatan sistem rekomendasi yang digunakan adalah <i>Collaborative Filtering</i> yang memberikan rekomendasi berdasarkan rating dari pengunjung. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1skJ6T2VCJ4jQMf7372j3GYhMKJH054_6/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Collaborative-Filtering-Recommender-System" class="code center" target="_blank">disini</a></b>.</p>
+                        </div>
+                      </div>
+                    </span></div>
+                </li>
+              </ul>
+          </div>
+      </section>
+      <!-- akhir portfolio -->
+      <!-- awal contact -->
+      <footer id="kontak" class="contact black lighten-3 scrollspy">
+          <div class="container">
+              <h3 class="light white-text text-darken-3 center"><b>Kontak Saya</b></h3>
+              <div class="row">
+                  <div class="col m5 s12">
+                      <!-- <div class="card-panel white darken-4 center black-text">
+                          <i class="material-icons ">email</i>
+                          <h5>Contact</h5>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, recusandae.</p>
+                      </div> -->
+                      <ul class=" white collection width-header">
+                          <li class="white collection-header center"><h4>Media Sosial</h4></li>
+                          <li class="collection-item"><a href="mailto:bagasadrianus90@gmail.com" class="fa fa-envelope" target="_blank"></a>bagasadrianus90@gmail.com</li>
+                          <li class="collection-item"><a href="https://github.com/Adrianus-Bagas" target="_blank" class="fa fa-github"></a>Adrianus-Bagas</li>
+                          <li class="collection-item"><a href="https://www.instagram.com/a_bagasu/" target="_blank" class="fa fa-instagram"></a>a_bagasu</li>
+                          <li class="collection-item"><a href="https://www.linkedin.com/in/adrianus-bagas-8499071ab/" target="_blank" class="fa fa-linkedin"></a>Adrianus Bagas</li>
+                      </ul>
+                  </div>
+                  <div class="col m7 s12">
+                      <form name="form-website">
+                        <div class="card-panel">
+                          <h5>Kritik dan Saran</h5>
+                          <div class="input-field">
+                              <input name="nama" type="text" class="name validate" id="name" required>
+                              <label for="name">Nama</label>
+                          </div>
+                          <div class="input-field">
+                              <input name="email" type="email" class="email validate" id="email">
+                              <label for="name">Email</label>
+                          </div>
+                          <div class="input-field">
+                              <textarea name="pesan" id="message" class="materialize-textarea"></textarea>
+                              <label for="name">Pesan</label>
+                          </div>
+                          <button type="submit" class="btn black darken-4">Kirim</button>
+                        </div>
+                    </form>
+                  </div>
+              </div>
+          </div>
+        </footer>
+      <!-- akhir contact -->
+      <!-- awal footer -->
+      <!-- <footer class="white darken-4 black-text center">
+          <h4>Terima Kasih Atas Kunjungannya</h4>
+      </footer> -->
+      <!-- akhir footer -->
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            indicators : false,
+            height : 300,
+            transition : 600,
+            interval : 3000
+        });
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax);
+
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
+
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll, {
+            scrollOffset : 50
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        M.Collapsible.init(elems);
+        });
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzFpAgM-zm3CKTT8AkQ4lLYr4Fi3jqInouTeAwngPCB5wAW2-WEx4pX8qx8eI11kgL5HQ/exec'
+      const form = document.forms['form-website']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => 
+          {
+            M.toast({html: 'Pesan Terkirim'})
+            form.reset();
+            console.log('Success!', response)
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
