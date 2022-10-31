@@ -10,8 +10,8 @@
 .slider .first{
     margin-top: 10px;
 }
-.about h6{
-    text-align: justify;
+.about h5{
+    text-align: center;
 }
 .parallax-container{
     height: 20%;
@@ -97,6 +97,9 @@ img{
 }
 .proyek{
     padding: 20px;
+}
+.wc img{
+    width: 60%;
 }
 /* .email:hover {
     opacity: 0.7;
